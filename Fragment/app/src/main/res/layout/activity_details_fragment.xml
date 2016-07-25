@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#899F37"
+    tools:context="com.example.bs151.fragmentwithlistview.DetailsFragment">
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/versionNameTextView"
+        android:text="Android Version Name"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apiTextView"
+        android:text="Android Api"
+        android:textAppearance="?android:textAppearanceLarge"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/releaseDateTextView"
+        android:text="Release Date"
+        android:textAppearance="?android:textAppearanceLarge"/>
+</LinearLayout>
