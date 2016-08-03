@@ -8,8 +8,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e4c7c7">
 
         <TextView
             android:layout_width="match_parent"
@@ -22,6 +23,11 @@
             android:layout_height="wrap_content"
             android:text="@{user.phoneNumber}"
             />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff"/>
     </LinearLayout>
 
 </layout>
